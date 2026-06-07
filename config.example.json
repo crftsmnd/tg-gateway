@@ -1,0 +1,16 @@
+{
+  "bot_token": "YOUR_BOT_TOKEN",
+  "allow_from": ["YOUR_TELEGRAM_USER_ID"],
+  "streaming": true,
+  "use_markdown_v2": false,
+  "proxy": "",
+  "debug": false,
+  "max_message_length": 4096,
+  "typing_indicator": true,
+  "base_url": "https://api.telegram.org",
+  "llm_api_url": "https://api.openai.com/v1/chat/completions",
+  "llm_api_key": "YOUR_LLM_API_KEY",
+  "llm_model": "gpt-4o-mini",
+  "system_prompt": "You are a helpful AI assistant. Be concise and helpful. Reply in the same language the user writes in.",
+  "max_history": 20
+}
